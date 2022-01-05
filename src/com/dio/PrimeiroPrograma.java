@@ -8,7 +8,7 @@ public class PrimeiroPrograma {
 
         System.out.println(gato);
 
-        Livro livro1 = new Livro("O labirito dos Ossos",  280);
+        Livro livro1 = new Livro("O labirito dos Ossos", 280);
 
         System.out.println(livro1);
 
@@ -41,6 +41,7 @@ class Livro {
     }
 
     public void setNumPaginas(Integer numPaginas) {
+        
         this.numPaginas = numPaginas;
     }
 

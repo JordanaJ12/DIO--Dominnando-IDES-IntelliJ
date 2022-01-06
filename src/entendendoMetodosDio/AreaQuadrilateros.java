@@ -7,19 +7,21 @@ package entendendoMetodosDio;
 
 public class AreaQuadrilateros {
 
-    public static void area(double valor) {
+    public static double area(double valor) {
         double areaQuadrado = valor * valor; // cálculo da área de um quadrado
-        System.out.println("A área do quadrado é " + areaQuadrado);
+
+        return areaQuadrado;
     }
 
-    public static void area(double altura, double largura) {
+    public static double area(double altura, double largura) {
         double areaRetangulo = altura * largura; // cálculo da área de um retângulo
-        System.out.println("A área do retângulo é + " + areaRetangulo);
+
+        return areaRetangulo;
     }
 
-    public static void area(double baseMaior, double baseMenor, double altura ) {
+    public static double area(double baseMaior, double baseMenor, double altura ) {
         double areaTrapezio = ((baseMaior + baseMenor) * altura) / 2; // cálculo da área de um trapézio
-        System.out.println("A área do trapézio é " + areaTrapezio);
+       return areaTrapezio;
     }
 
 }
